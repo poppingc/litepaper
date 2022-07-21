@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#181C1A];
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+@layer components {
+  .gradient-input-border {
+    background: linear-gradient(#181c1a 0 0) padding-box,
+      linear-gradient(225deg, #55ff79 14.89%, #097200 85.85%) border-box;
+    border: 1px solid transparent;
+  }
+}

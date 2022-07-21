@@ -1,0 +1,62 @@
+[
+  {
+    "Allocation": "Seed Round Backers",
+    "Token Amount": 18000000,
+    "% of the total token supply": 0.04,
+    "Token Vesting Schedule": "5% unlocked at TGE, then 9.5% quarterly unlocking"
+  },
+  {
+    "Allocation": "Private Round Backers",
+    "Token Amount": 54000000,
+    "% of the total token supply": 0.12,
+    "Token Vesting Schedule": "10% unlocked at TGE, then 9% quarterly unlocking"
+  },
+  {
+    "Allocation": "Strategic Round Backers",
+    "Token Amount": 22500000,
+    "% of the total token supply": 0.05,
+    "Token Vesting Schedule": "12.5% unlocked at TGE, followed by a 2-year equal quarterly unlocking"
+  },
+  {
+    "Allocation": "Public Round Token Sale",
+    "Token Amount": 6750000,
+    "% of the total token supply": 0.015,
+    "Token Vesting Schedule": "15% unlocked at TGE, then 8.5% monthly unlocking"
+  },
+  {
+    "Allocation": "Liquidity/MM",
+    "Token Amount": 45000000,
+    "% of the total token supply": 0.1,
+    "Token Vesting Schedule": "10% unlocked at listing CEX/DEX, then 5% monthly unlocking (according to the liquidity needs)"
+  },
+  {
+    "Allocation": "Early Contributor Rewards",
+    "Token Amount": 11250000,
+    "% of the total token supply": 0.025,
+    "Token Vesting Schedule": "1-month cliff starting at TGE, then 10% monthly unlocking"
+  },
+  {
+    "Allocation": "Marketing/Development",
+    "Token Amount": 67500000,
+    "% of the total token supply": 0.15,
+    "Token Vesting Schedule": "5% unlocked at TGE, followed by a 4-year equal quarterly unlocking"
+  },
+  {
+    "Allocation": "Team",
+    "Token Amount": 67500000,
+    "% of the total token supply": 0.15,
+    "Token Vesting Schedule": "12-month cliff starting at TGE, followed by a 5-year equal quarterly unlocking"
+  },
+  {
+    "Allocation": "Partners/Advisors",
+    "Token Amount": 22500000,
+    "% of the total token supply": 0.05,
+    "Token Vesting Schedule": "6-month cliff starting at TGE, followed by a 4-year equal quarterly unlocking"
+  },
+  {
+    "Allocation": "Ecosystem/Treasury",
+    "Token Amount": 135000000,
+    "% of the total token supply": 0.3,
+    "Token Vesting Schedule": "3-month cliff starting at TGE, followed by a 5-year equal quarterly unlocking"
+  }
+]
