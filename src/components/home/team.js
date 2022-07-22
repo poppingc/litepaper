@@ -94,7 +94,7 @@ export default function HomeTeam() {
               <a href={item.telegram}>
                 {item.telegram && (
                   <img
-                    src='/icons/icon-team-telegram.svg'
+                    src='/litepaper/icons/icon-team-telegram.svg'
                     alt=''
                     className='h-[28px] w-[28px] shrink-0 object-contain'
                   />
@@ -102,7 +102,7 @@ export default function HomeTeam() {
               </a>
               <a href={item.linkedin}>
                 <img
-                  src='/icons/icon-team-linkedin.svg'
+                  src='/litepaper/icons/icon-team-linkedin.svg'
                   alt=''
                   className='h-[28px] w-[28px] shrink-0 object-contain'
                 />
@@ -110,7 +110,7 @@ export default function HomeTeam() {
               <a href={item.twitter}>
                 {item.twitter && (
                   <img
-                    src='/icons/icon-team-twitter.svg'
+                    src='/litepaper/icons/icon-team-twitter.svg'
                     alt=''
                     className='h-[28px] w-[28px] shrink-0 object-contain'
                   />
