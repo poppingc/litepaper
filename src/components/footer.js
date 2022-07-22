@@ -75,7 +75,7 @@ export default function Footer() {
     <div className='sticky top-[100vh]'>
       <img
         loading='lazy'
-        src='/images/footer-blur.png'
+        src='/litepaper/images/footer-blur.png'
         alt=''
         className='pointer-events-none absolute bottom-0 left-0 blur-3xl'
       />
@@ -89,9 +89,12 @@ export default function Footer() {
               <Link href='/' passHref>
                 <a>
                   <picture>
-                    <source srcSet='/images/logo.webp' type='image/webp' />
+                    <source
+                      srcSet='/litepaper/images/logo.webp'
+                      type='image/webp'
+                    />
                     <img
-                      src='/images/logo.png'
+                      src='/litepaper/images/logo.png'
                       alt='TARS Protocol Logo'
                       width='310'
                       height='60'

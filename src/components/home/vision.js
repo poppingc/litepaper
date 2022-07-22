@@ -9,12 +9,12 @@ export default function HomeVision() {
 
       <div className='relative mt-20 flex justify-center'>
         <img
-          src='/images/img-vision-left.svg'
+          src='/litepaper/images/img-vision-left.svg'
           alt=''
           className='absolute -top-1/3 -left-36 hidden w-96 object-contain xs:block md:-top-3/4 md:-left-52 md:w-[600px] lg:-left-36'
         />
         <img
-          src='/images/img-vision-right.svg'
+          src='/litepaper/images/img-vision-right.svg'
           alt=''
           className='absolute -top-1/3 -right-36 hidden w-96 object-contain xs:block md:-top-3/4 md:-right-52 md:w-[600px] lg:-right-36'
         />
@@ -22,7 +22,7 @@ export default function HomeVision() {
           It’s time to solve the &quot;trust problem&quot; when investing and
           trading in the crypto world.
           <img
-            src='/images/img-vision-center.svg'
+            src='/litepaper/images/img-vision-center.svg'
             alt=''
             className='absolute left-1/2 top-1/2 w-[200%] max-w-none -translate-x-1/2 -translate-y-1/2 object-contain'
           />

@@ -2,6 +2,8 @@
 const nextConfig = {
   reactStrictMode: true,
 
+  basePath: '/litepaper',
+
   eslint: {
     dirs: ['src'],
   },

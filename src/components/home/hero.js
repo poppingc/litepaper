@@ -4,17 +4,17 @@ export default function HomeHero() {
   return (
     <>
       <img
-        src='/images/img-hero-circles.svg'
+        src='/litepaper/images/img-hero-circles.svg'
         alt=''
         className='pointer-events-none absolute left-0 top-0 -z-10 w-full min-w-0 object-contain'
       />
       <img
-        src='/images/img-hero-left.png'
+        src='/litepaper/images/img-hero-left.png'
         alt=''
         className='pointer-events-none absolute left-0 top-40 w-64 min-w-0 object-contain md:top-0 md:w-96 lg:w-[595px]'
       />
       <img
-        src='/images/img-hero-right.png'
+        src='/litepaper/images/img-hero-right.png'
         alt=''
         className='pointer-events-none absolute right-0 top-40 w-64 min-w-0 object-contain md:top-0 md:w-96 lg:w-[600px]'
       />
@@ -38,7 +38,7 @@ export default function HomeHero() {
                 className='block w-[215px] transition ease-in hover:-translate-y-2'
               >
                 <img
-                  src='/images/certikk.svg'
+                  src='/litepaper/images/certikk.svg'
                   alt=''
                   className='w-full min-w-0 object-contain'
                 />
@@ -48,7 +48,7 @@ export default function HomeHero() {
                 className='block w-[215px] transition ease-in hover:-translate-y-2'
               >
                 <img
-                  src='/images/peckshield_audited.svg'
+                  src='/litepaper/images/peckshield_audited.svg'
                   alt=''
                   className='w-full min-w-0 object-contain'
                 />

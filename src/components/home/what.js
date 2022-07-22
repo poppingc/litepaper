@@ -4,7 +4,7 @@ export default function HomeWhat() {
   return (
     <div className='relative'>
       <img
-        src='/images/img-what-shape-right.svg'
+        src='/litepaper/images/img-what-shape-right.svg'
         alt=''
         className='pointer-events-none absolute right-0 -bottom-48 w-40 object-contain md:bottom-auto md:top-1/2 md:w-auto'
       />
@@ -13,12 +13,12 @@ export default function HomeWhat() {
         <div className='grid gap-12 md:grid-cols-12 lg:gap-16 xl:gap-24'>
           <div className='md:col-span-4'>
             <img
-              src='/images/img-what-left.png'
+              src='/litepaper/images/img-what-left.png'
               alt=''
               className='mx-auto w-1/2 min-w-0 object-contain md:w-full'
             />
           </div>
-          <div id="meet-tars" className='md:col-span-8'>
+          <div id='meet-tars' className='md:col-span-8'>
             <h4 className='text-3xl font-extrabold leading-tight text-white lg:text-4xl xl:text-5xl'>
               Meet
               <span className='text-green-primary'> TARS </span>
