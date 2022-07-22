@@ -12,25 +12,27 @@ const footerLinks = [
     links: [
       {
         name: 'Docs',
-        url: '/docs',
+        url: 'https://docs.tars.pro/',
       },
       {
         name: 'Blog',
-        url: '/blog',
+        url: 'https://blog.tars.pro/',
       },
       {
         name: 'FAQ',
-        url: '/faq',
+        url: 'https://docs.tars.pro/getting-started/faq',
       },
 
       {
         name: 'Authenticity Check',
-        url: '/authentication-check',
+        url: '/verification',
+        target: '_blank',
       },
 
       {
         name: 'Brand Kit',
         url: '/brand-kit',
+        target: '_blank',
       },
     ],
   },
@@ -39,15 +41,15 @@ const footerLinks = [
     links: [
       {
         name: 'SAFTs',
-        url: '/SAFTs',
+        url: '/explore',
       },
       {
         name: 'Spaces',
-        url: '/Spaces',
+        url: '/spaces',
       },
       {
         name: 'Claimer',
-        url: '/Claimer',
+        url: '/new-claimer',
       },
     ],
   },
@@ -56,15 +58,15 @@ const footerLinks = [
     links: [
       {
         name: 'My Space',
-        url: '/my-space',
+        url: '/my/space',
       },
       {
         name: 'My NFT',
-        url: '/my-nft',
+        url: '/my/nft',
       },
       {
         name: 'My Joined',
-        url: '/my-joined',
+        url: '/my/joined',
       },
     ],
   },
@@ -135,7 +137,7 @@ export default function Footer() {
               <ul className='mt-3'>
                 <li className='py-1'>
                   <a
-                    href='/twitter'
+                    href='https://twitter.com/tarsprotocol'
                     className='flex items-center text-sm text-neutral-400 hover:underline'
                   >
                     <div className='w-8'>
@@ -146,7 +148,7 @@ export default function Footer() {
                 </li>
                 <li className='py-1'>
                   <a
-                    href='/twitter'
+                    href='https://t.me/tarsprotocol'
                     className='flex items-center text-sm text-neutral-400 hover:underline'
                   >
                     <div className='w-8'>
@@ -157,7 +159,7 @@ export default function Footer() {
                 </li>
                 <li className='py-1'>
                   <a
-                    href='/twitter'
+                    href='https://discord.com/invite/tarsprotocol'
                     className='flex items-center text-sm text-neutral-400 hover:underline'
                   >
                     <div className='w-8'>
@@ -168,7 +170,7 @@ export default function Footer() {
                 </li>
                 <li className='py-1'>
                   <a
-                    href='/twitter'
+                    href='https://github.com/Tars-protocol'
                     className='flex items-center text-sm text-neutral-400 hover:underline'
                   >
                     <div className='w-8'>
@@ -179,7 +181,7 @@ export default function Footer() {
                 </li>
                 <li className='py-1'>
                   <a
-                    href='/twitter'
+                    href='mailto:info@tars.pro'
                     className='flex items-center text-sm text-neutral-400 hover:underline'
                   >
                     <div className='w-8'>
