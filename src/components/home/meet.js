@@ -32,7 +32,7 @@ export default function HomeMeet() {
               </div>
               <img
                 loading='lazy'
-                src='/images/box-smart-saft.png'
+                src='/litepaper/images/box-smart-saft.png'
                 alt=''
                 className='absolute -right-24 -bottom-24 w-64 max-w-none object-contain sm:bottom-auto sm:top-1/2 sm:w-96 sm:-translate-y-1/2 md:-right-48 md:w-[585px]'
               />
@@ -57,13 +57,13 @@ export default function HomeMeet() {
 
                   <img
                     loading='lazy'
-                    src='/images/bg-box-space.svg'
+                    src='/litepaper/images/bg-box-space.svg'
                     alt=''
                     className='absolute bottom-0 right-0 h-full min-w-0 object-contain'
                   />
                   <img
                     loading='lazy'
-                    src='/images/box-space.svg'
+                    src='/litepaper/images/box-space.svg'
                     alt=''
                     className='absolute -right-10 -bottom-10 w-36 min-w-0 object-contain'
                   />
@@ -86,13 +86,13 @@ export default function HomeMeet() {
 
                   <img
                     loading='lazy'
-                    src='/images/bg-box-claimer.svg'
+                    src='/litepaper/images/bg-box-claimer.svg'
                     alt=''
                     className='absolute bottom-0 right-0 h-full min-w-0 object-contain'
                   />
                   <img
                     loading='lazy'
-                    src='/images/box-claimer.svg'
+                    src='/litepaper/images/box-claimer.svg'
                     alt=''
                     className='absolute right-0 -bottom-10 w-60 min-w-0 object-contain md:w-[200px]'
                   />
@@ -117,13 +117,13 @@ export default function HomeMeet() {
                 </div>
                 <img
                   loading='lazy'
-                  src='/images/box-nft-receipt.png'
+                  src='/litepaper/images/box-nft-receipt.png'
                   alt=''
                   className='absolute bottom-4 left-1/2 z-10 w-48 shrink-0 -translate-x-1/2 object-contain sm:bottom-auto sm:left-auto sm:right-8 sm:top-1/2 sm:h-full sm:max-h-[90%] sm:translate-x-0 sm:-translate-y-1/2 md:w-64'
                 />
                 <img
                   loading='lazy'
-                  src='/images/bg-box-nft-receipt.svg'
+                  src='/litepaper/images/bg-box-nft-receipt.svg'
                   alt=''
                   className='contain absolute right-0 top-0 h-full'
                 />
@@ -134,26 +134,26 @@ export default function HomeMeet() {
 
         <img
           loading='lazy'
-          src='/images/meet-blur-bottom-right.png'
+          src='/litepaper/images/meet-blur-bottom-right.png'
           alt=''
           className='pointer-events-none absolute -bottom-48 -right-36 h-96 w-96 object-contain'
         />
       </div>
       <img
         loading='lazy'
-        src='/images/meet-blur-left.png'
+        src='/litepaper/images/meet-blur-left.png'
         alt=''
         className='pointer-events-none absolute bottom-0 left-0 object-contain blur-3xl sm:-bottom-1/4 sm:-left-20'
       />
       <img
         loading='lazy'
-        src='/images/meet-blur-right.png'
+        src='/litepaper/images/meet-blur-right.png'
         alt=''
         className='pointer-events-none absolute top-0 right-0 object-contain blur-3xl sm:-top-1/2 sm:-right-20'
       />
       <img
         loading='lazy'
-        src='/images/meet-blur-bottom.png'
+        src='/litepaper/images/meet-blur-bottom.png'
         alt=''
         className='pointer-events-none absolute left-0 bottom-0 translate-y-1/2 object-contain blur-3xl'
       />

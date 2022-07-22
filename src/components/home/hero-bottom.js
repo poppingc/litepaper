@@ -7,7 +7,7 @@ export default function HomeHeroBottom() {
           className='block w-[214px] transition ease-in hover:-translate-y-2 md:col-span-2'
         >
           <img
-            src='/images/mirror_logo.svg'
+            src='/litepaper/images/mirror_logo.svg'
             alt=''
             className='w-full min-w-0 object-contain'
           />
@@ -21,7 +21,7 @@ export default function HomeHeroBottom() {
           className='block w-[214px] transition ease-in hover:-translate-y-2 md:col-span-2'
         >
           <img
-            src='/images/hero-bottom-img-2.svg'
+            src='/litepaper/images/hero-bottom-img-2.svg'
             alt=''
             className='w-full min-w-0 object-contain'
           />
@@ -35,7 +35,7 @@ export default function HomeHeroBottom() {
           className='block w-[214px] transition ease-in hover:-translate-y-2 md:col-span-2'
         >
           <img
-            src='/images/hero-bottom-img-3.png'
+            src='/litepaper/images/hero-bottom-img-3.png'
             alt=''
             className='w-full min-w-0 object-contain'
           />

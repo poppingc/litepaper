@@ -40,7 +40,6 @@ const navLinks = [
     name: 'Tokenomics',
     href: '#tokenomics',
     isScroll: true,
-    
   },
   {
     name: 'Team',
@@ -59,9 +58,7 @@ function HeaderDropdown() {
     <Menu as='div' className='relative inline-block text-left'>
       {({ open }) => (
         <>
-          <Menu.Button as='div'>
-           
-          </Menu.Button>
+          <Menu.Button as='div'></Menu.Button>
           <Transition
             as={React.Fragment}
             enter='transition ease-out duration-100'
@@ -71,24 +68,24 @@ function HeaderDropdown() {
             leaveFrom='transform opacity-100 scale-100'
             leaveTo='transform opacity-0 scale-95'
           >
-            <Menu.Items className='border-green-primary absolute right-0 z-40 mt-2 w-full origin-top-right divide-y divide-white/20 rounded-lg border bg-[#262626] px-3 py-1 xs:w-48 xs:px-5'>
+            <Menu.Items className='absolute right-0 z-40 mt-2 w-full origin-top-right divide-y divide-white/20 rounded-lg border border-green-primary bg-[#262626] px-3 py-1 xs:w-48 xs:px-5'>
               <Menu.Item>
                 <Link href='/wallet' passHref>
-                  <a className='hover:text-green-primary block py-2 text-xs font-medium text-white xs:py-4 xs:text-sm'>
+                  <a className='block py-2 text-xs font-medium text-white hover:text-green-primary xs:py-4 xs:text-sm'>
                     Wallet
                   </a>
                 </Link>
               </Menu.Item>
               <Menu.Item>
                 <Link href='/recent' passHref>
-                  <a className='hover:text-green-primary block py-2 text-xs font-medium text-white xs:py-4 xs:text-sm'>
+                  <a className='block py-2 text-xs font-medium text-white hover:text-green-primary xs:py-4 xs:text-sm'>
                     Recent Transactions
                   </a>
                 </Link>
               </Menu.Item>
               <Menu.Item>
                 <Link href='/disconnect' passHref>
-                  <a className='hover:text-green-primary flex items-center justify-between py-2 text-xs font-medium text-white xs:py-4 xs:text-sm'>
+                  <a className='flex items-center justify-between py-2 text-xs font-medium text-white hover:text-green-primary xs:py-4 xs:text-sm'>
                     Disconnect{' '}
                     <IconDisconnect className='h-5 w-5 xs:h-7 xs:w-7' />
                   </a>
@@ -112,9 +109,12 @@ export default function Header() {
           <Link href='http://tars.pro/' passHref>
             <a>
               <picture>
-                <source srcSet='/images/logo.webp' type='image/webp' />
+                <source
+                  srcSet='/litepaper/images/logo.webp'
+                  type='image/webp'
+                />
                 <img
-                  src='/images/logo.png'
+                  src='/litepaper/images/logo.png'
                   alt='TARS Protocol Logo'
                   width='310'
                   height='60'
@@ -133,7 +133,7 @@ export default function Header() {
                   {isScroll ? (
                     <a
                       href={href}
-                      className='font-secondary hover:text-green-secondary relative text-[13px] text-white transition duration-300'
+                      className='font-secondary relative text-[13px] text-white transition duration-300 hover:text-green-secondary'
                     >
                       <ScrambledText>{name}</ScrambledText>
                       {badge && (
@@ -143,7 +143,7 @@ export default function Header() {
                       )}
                       {tick && (
                         <img
-                          src='/images/icon-tick.png'
+                          src='/litepaper/images/icon-tick.png'
                           alt=''
                           className='absolute -right-3 -top-2 h-4 w-4'
                         />
@@ -154,8 +154,8 @@ export default function Header() {
                       <a
                         className={
                           router.pathname == href
-                            ? 'font-secondary text-green-secondary relative text-[13px] transition duration-300'
-                            : 'font-secondary hover:text-green-secondary relative text-[13px] text-white transition duration-300'
+                            ? 'font-secondary relative text-[13px] text-green-secondary transition duration-300'
+                            : 'font-secondary relative text-[13px] text-white transition duration-300 hover:text-green-secondary'
                         }
                       >
                         <ScrambledText>{name}</ScrambledText>
@@ -166,7 +166,7 @@ export default function Header() {
                         )}
                         {tick && (
                           <img
-                            src='/images/icon-tick.png'
+                            src='/litepaper/images/icon-tick.png'
                             alt=''
                             className='absolute -right-3 -top-2 h-4 w-4'
                           />
@@ -229,7 +229,7 @@ export default function Header() {
                               {isScroll ? (
                                 <a
                                   href={href}
-                                  className='font-secondary hover:text-green-secondary relative text-[13px] text-white transition duration-300'
+                                  className='font-secondary relative text-[13px] text-white transition duration-300 hover:text-green-secondary'
                                 >
                                   {name}
                                   {badge && (
@@ -239,7 +239,7 @@ export default function Header() {
                                   )}
                                   {tick && (
                                     <img
-                                      src='/images/icon-tick.png'
+                                      src='/litepaper/images/icon-tick.png'
                                       alt=''
                                       className='absolute -right-3 -top-2 h-4 w-4'
                                     />
@@ -250,8 +250,8 @@ export default function Header() {
                                   <a
                                     className={
                                       router.pathname == href
-                                        ? 'font-secondary text-green-secondary relative text-[13px] transition duration-300'
-                                        : 'font-secondary hover:text-green-secondary relative text-[13px] text-white transition duration-300'
+                                        ? 'font-secondary relative text-[13px] text-green-secondary transition duration-300'
+                                        : 'font-secondary relative text-[13px] text-white transition duration-300 hover:text-green-secondary'
                                     }
                                   >
                                     {name}
@@ -262,7 +262,7 @@ export default function Header() {
                                     )}
                                     {tick && (
                                       <img
-                                        src='/images/icon-tick.png'
+                                        src='/litepaper/images/icon-tick.png'
                                         alt=''
                                         className='absolute -right-3 -top-2 h-4 w-4'
                                       />

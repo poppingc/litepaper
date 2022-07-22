@@ -5,7 +5,11 @@ export default function Document() {
     <Html lang='en'>
       <Head>
         <meta name='description' content='Site Description'></meta>
-        <link rel='icon' type='image/x-icon' href='/images/favicon.ico' />
+        <link
+          rel='icon'
+          type='image/x-icon'
+          href='/litepaper/images/favicon.ico'
+        />
         <meta
           name='description'
           content='Built on Non-Custodial, Secure - Audited Smart TARS provides a simple, safe and collaborative infrastructure for crypto users to rebuild influence and TRUST on Web3.'

@@ -5,37 +5,37 @@ import * as React from 'react';
 const items = [
   {
     title: 'Token vesting schedule inconsistency',
-    img: '/images/img-why-tars-smartsaft.png',
+    img: '/litepaper/images/img-why-tars-smartsaft.png',
     description:
       'The project parties adjust the token vesting schedules without paying any price, which seriously damages the interests of investors.',
   },
   {
     title: 'Lack of protection for crypto investors',
-    img: '/images/img-why-tars.png',
+    img: '/litepaper/images/img-why-tars.png',
     description:
       'Scams happen when signing SAFTs without the safeguards of smart contracts. It’s difficult for investors to protect themselves when the project party does not implement the corresponding terms in SAFT paper.',
   },
   {
     title: 'Lack of decentralized platforms for OTC/Block Trading',
-    img: '/images/img-why-tars-launchpad.png',
+    img: '/litepaper/images/img-why-tars-launchpad.png',
     description:
       'There’re IDO and DEX for the primary market and the secondary market, but block trading and over-the-counter (OTC) are in urgent need of a paradigm shift due to the risk of centralization.',
   },
   {
     title: 'Hard to manage the portfolios and vested tokens',
-    img: '/images/img-why-tars-claimer.png',
+    img: '/litepaper/images/img-why-tars-claimer.png',
     description:
       'There is currently a lack of one-stop platform for crypto investors to track and manage their portfolios, vested tokens, and statistical ROI, etc.',
   },
   {
     title: 'On-chain programs and interaction complexity',
-    img: '/images/img-why-tars-repair.png',
+    img: '/litepaper/images/img-why-tars-repair.png',
     description:
       'There’s a lack of a smooth and trustable token claim/vesting platform for investors/project parties due to the complexity of on-chain program and interaction.',
   },
   {
     title: 'Hard to monetize the influence',
-    img: '/images/img-why-tars-coding.png',
+    img: '/litepaper/images/img-why-tars-coding.png',
     description:
       'In web3, the way influence is monetized requires a paradigm shift, which is, crypto influencers/VCs/KOLs/active players can take profits while building influence.',
   },
@@ -46,7 +46,7 @@ export default function HomeWhy() {
 
   return (
     <div className='relative site-container'>
-      <div id="pain-points-in-crypto" className='mx-auto md:max-w-3xl'>
+      <div id='pain-points-in-crypto' className='mx-auto md:max-w-3xl'>
         <h4 className='text-center text-3xl font-extrabold text-white lg:text-4xl xl:text-5xl'>
           Pain Points in Crypto <span className='text-green-primary'></span>
         </h4>

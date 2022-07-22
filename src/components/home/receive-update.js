@@ -2,7 +2,7 @@ export default function HomeReceiveUpdate() {
   return (
     <div className='relative py-40 sm:py-52 md:py-64 lg:py-72 xl:py-96'>
       <img
-        src='/images/receive-update-circles.svg'
+        src='/litepaper/images/receive-update-circles.svg'
         alt=''
         className='pointer-events-auto absolute left-1/2 top-1/2 -z-10 h-full w-full -translate-x-1/2 -translate-y-1/2'
       />
