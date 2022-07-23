@@ -15,6 +15,10 @@ const footerLinks = [
         url: 'https://docs.tars.pro/',
       },
       {
+        name: 'LitePaper',
+        url: '/litepaper',
+      },
+      {
         name: 'Blog',
         url: 'https://blog.tars.pro/',
       },
