@@ -1,4 +1,5 @@
 import Charts from '@/components/home/charts';
+import HomeFeatured from '@/components/home/featured';
 import HomeHero from '@/components/home/hero';
 import HomeHeroBottom from '@/components/home/hero-bottom';
 import HomeMeet from '@/components/home/meet';
@@ -30,6 +31,8 @@ export default function Home() {
       <Charts />
       <Line />
       <HomeTeam />
+      <Line />
+      <HomeFeatured />
       <Line />
       <HomeRoadmap />
       <Line />
