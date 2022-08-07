@@ -20,3 +20,7 @@ html {
     border: 1px solid transparent;
   }
 }
+
+.filter{
+  filter: brightness(0) invert(1);
+}
