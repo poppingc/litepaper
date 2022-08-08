@@ -21,7 +21,7 @@ const teamMembers = [
   },
   {
     name: 'William Sarbinowski',
-    title: 'Head of Business Development',
+    title: 'Head of BD',
     linkedin: 'https://www.linkedin.com/in/william-sarbinowski-2447351ab',
     telegram: '',
     description:
