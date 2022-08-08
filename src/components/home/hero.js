@@ -26,8 +26,9 @@ export default function HomeHero() {
               Rebuild Influence and Trust on Web3
             </h1>
             <p className='mt-6 text-center text-base font-normal text-[#D8D8D8] sm:text-lg lg:text-xl'>
-              TARS is an automated Web3 protocol providing trustable on-chain
-              solutions for investment relationships.
+              TARS is an automated protocol providing trustable infrastructure
+              for Web3 companies to help them manage their investment and
+              monetize their influence.
             </p>
           </div>
 
@@ -56,11 +57,14 @@ export default function HomeHero() {
             </div>
           </div>
 
-          <a href='https://tars.pro/my/space'>
-            <div className='mt-12 flex justify-center '>
+          <div className='mt-12 flex justify-center gap-4 '>
+            <a href='https://tars.pro/my/space'>
               <CustomButton size='sm'>Start Now</CustomButton>
-            </div>
-          </a>
+            </a>
+            <a href='https://calendly.com/tars-team' target='_blank'>
+              <CustomButton size='sm'>Book a Demo</CustomButton>
+            </a>
+          </div>
         </div>
       </div>
     </>

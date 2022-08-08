@@ -110,8 +110,9 @@ export default function Footer() {
                 </a>
               </Link>
               <p className='font-secondary mt-3 max-w-[460px] text-sm leading-relaxed text-neutral-400 md:max-w-[360px]'>
-                Built on Non-Custodial, Secure and Audited Smart Contracts and
-                born to rebuild influence and trust for crypto users on Web3.
+                TARS provides a simple, safe and collaborative infrastructure
+                for crypto organizations to complete the fundraising and
+                efficiently manage their portfolios and vesting tokens.
               </p>
             </div>
             {footerLinks.map((column) => (

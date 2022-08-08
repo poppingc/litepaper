@@ -24,9 +24,12 @@ export default function HomeWhat() {
               <span className='text-green-primary'> TARS </span>
             </h4>
             <p className='mt-4 text-sm text-[#D8D8D8] md:text-base'>
-              Built on Non-Custodial, Secure and Audited Smart Contracts, TARS
-              provides a simple, safe, and collaborative infrastructure for
-              crypto users to rebuild influence and trust on Web3.
+              TARS provides a{' '}
+              <span className='font-bold text-green-primary'>
+                simple, safe and collaborative infrastructure
+              </span>{' '}
+              for crypto organizations to complete the fundraising and
+              efficiently manage their portfolios and vesting tokens.
               <br />A variety of Web3 utilities built with TARS Protocol,
               including{' '}
               <span className='font-bold text-green-primary'>
