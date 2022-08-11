@@ -19,13 +19,13 @@ const items = [
     title: 'Lack of decentralized platforms for OTC/Block Trading',
     img: '/litepaper/images/img-why-tars-launchpad.png',
     description:
-      'There’re IDO and DEX for the primary market and the secondary market, but block trading and over-the-counter (OTC) are in urgent need of a paradigm shift due to the risk of centralization.',
+      'There are IDOs and DEX for the primary market and the secondary market, but block trading and over-the-counter (OTC) are in urgent need of a paradigm shift due to the risk of centralization.',
   },
   {
     title: 'Hard to manage the portfolios and vested tokens',
     img: '/litepaper/images/img-why-tars-claimer.png',
     description:
-      'There is currently a lack of one-stop platform for crypto investors to track and manage their portfolios, vested tokens, and statistical ROI, etc.',
+      'There is currently a lack of a one-stop platform for crypto investors to track and manage their portfolios, vested tokens, statistical ROI, etc.',
   },
   {
     title: 'On-chain programs and interaction complexity',
@@ -34,10 +34,10 @@ const items = [
       'There’s a lack of a smooth and trustable token claim/vesting platform for investors/project parties due to the complexity of on-chain program and interaction.',
   },
   {
-    title: 'Hard to monetize the influence',
+    title: 'Lack of applicable credit systems in Web3',
     img: '/litepaper/images/img-why-tars-coding.png',
     description:
-      'In web3, the way influence is monetized requires a paradigm shift, which is, crypto influencers/VCs/KOLs/active players can take profits while building influence.',
+      'In Web2, centralized authorities control the credit system of users; but in web3, no applicable solution for the credit system has not yet emerged.',
   },
 ];
 
