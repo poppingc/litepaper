@@ -23,12 +23,12 @@ export default function HomeHero() {
         <div className='min-h-[600px] site-container lg:min-h-[800px]'>
           <div className='mx-auto md:max-w-3xl'>
             <h1 className='mt-24 text-center text-3xl font-black !leading-none text-white sm:text-4xl md:mt-36 md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-[75px]'>
-              Rebuild Influence and Trust on Web3
+              Building Web3's Soul with TARS
             </h1>
             <p className='mt-6 text-center text-base font-normal text-[#D8D8D8] sm:text-lg lg:text-xl'>
-              TARS is an automated protocol providing trustable infrastructure
-              for Web3 companies to help them manage their investment and
-              monetize their influence.
+              TARS is a Web3 aggregation protocol building the Soulbound System
+              and the Credit Network with a trustable investment environment in
+              DeSoc.
             </p>
           </div>
 

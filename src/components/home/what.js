@@ -24,21 +24,9 @@ export default function HomeWhat() {
               <span className='text-green-primary'> TARS </span>
             </h4>
             <p className='mt-4 text-sm text-[#D8D8D8] md:text-base'>
-              TARS provides a{' '}
-              <span className='font-bold text-green-primary'>
-                simple, safe and collaborative infrastructure
-              </span>{' '}
-              for crypto organizations to complete the fundraising and
-              efficiently manage their portfolios and vesting tokens.
-              <br />A variety of Web3 utilities built with TARS Protocol,
-              including{' '}
-              <span className='font-bold text-green-primary'>
-                TARS Space, Smart SAFT, Claimer, TARS Dashboard,{' '}
-              </span>
-              etc., will allow crypto users to effortlessly engage in Web3 token
-              economies and manage their portfolios in a trusted environment.
-              Anyone can create their dedicated Web3 Brand through TARS Space
-              and monetize their influence from it.
+              TARS is a Web3 aggregation protocol and aims to provide a
+              trustable, scalable, composable, and collaborative infrastructure
+              to unlock the potential of Web3’s Soul in Decentralized Society.
             </p>
             <a href='https://docs.tars.pro/'>
               <div className='mt-4 md:mt-6'>

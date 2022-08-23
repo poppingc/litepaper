@@ -19,8 +19,8 @@ export default function HomeVision() {
           className='absolute -top-1/3 -right-36 hidden w-96 object-contain xs:block md:-top-3/4 md:-right-52 md:w-[600px] lg:-right-36'
         />
         <div className='relative flex h-60 w-60 items-center text-center text-sm !leading-loose text-[#7BE9B5] md:h-80 md:w-80'>
-          It’s time to solve the &quot;trust problem&quot; when investing and
-          trading in the crypto world.
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Unlock
+          the Potential of Web3’s Soul
           <img
             src='/litepaper/images/img-vision-center.svg'
             alt=''

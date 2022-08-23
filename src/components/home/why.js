@@ -10,16 +10,16 @@ const items = [
       'The project parties adjust the token vesting schedules without paying any price, which seriously damages the interests of investors.',
   },
   {
-    title: 'Lack of protection for crypto investors',
+    title: 'Sybil Attack is hard to resist',
     img: '/litepaper/images/img-why-tars.png',
     description:
-      'Scams happen when signing SAFTs without the safeguards of smart contracts. It’s difficult for investors to protect themselves when the project party does not implement the corresponding terms in SAFT paper.',
+      'We have observed that there are many crypto activities that are difficult to resist with Sybil Attacks —— people are using multiple addresses to forge multiple identities to participate in activities and profit.',
   },
   {
-    title: 'Lack of decentralized platforms for OTC/Block Trading',
+    title: 'In web3, there is no easy way to prove identity',
     img: '/litepaper/images/img-why-tars-launchpad.png',
     description:
-      'There are IDOs and DEX for the primary market and the secondary market, but block trading and over-the-counter (OTC) are in urgent need of a paradigm shift due to the risk of centralization.',
+      'Web3 technology has brought a new generation of revolutionary development, but it’s still difficult for users to prove that a certain account is controlled by themselves or some NFT assets are owned by themselves.',
   },
   {
     title: 'Hard to manage the portfolios and vested tokens',
